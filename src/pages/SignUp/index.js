@@ -64,6 +64,7 @@ export default function SignUp({navigation}) {
             secureTextEntry
             placeholder="Sua senha secreta"
             ref={passwordRef}
+            returnKeyType="send"
             onSubmitEditing={handleSubmit}
             value={password}
             onChangeText={setPassword}
